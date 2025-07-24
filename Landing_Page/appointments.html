@@ -1,0 +1,88 @@
+<!-- doctors.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Available Doctors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    .doctor-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .appointments {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 20px;
+      width: 220px;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .appointments h3 {
+      margin: 10px 0;
+    }
+    .btn {
+      margin-top: 12px;
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    <header class="navbar">
+  <div class="navbar-brand">StayHealthy</div>
+
+  <nav class="nav-links">
+    <a href="LandingPage.html">Home</a>
+    <a href="appointments.html">Appointments</a>
+    <a href="#blog">Health Blog</a>
+    <a href="#reviews">Reviews</a>
+  </nav>
+
+  <div class="nav-buttons">
+    <a href="signup.html" class="signup">Sign Up</a>
+    <a href="#login" class="login">Login</a>
+  </div>
+</header>
+  <h2>8 doctors available in</h2>
+  <p>Book appointments with minimum wait-time & verified doctor details</p>
+
+  <div class="appointments">
+    <div class="doctor-card">
+      <h3>Dr. Jiao Yang</h3>
+      <p>Dentist</p>
+      <p>9 years experience</p>
+      <p>Ratings: ⭐⭐⭐⭐⭐</p>
+      <button class="btn">Book Appointment<br>No Booking Fee</button>
+    </div>
+    <div class="doctor-card">
+      <h3>Dr. Denis Raj</h3>
+      <p>Dentist</p>
+      <p>24 years experience</p>
+      <p>Ratings: ⭐⭐⭐⭐</p>
+      <button class="btn">Book Appointment<br>No Booking Fee</button>
+    </div>
+    <div class="doctor-card">
+      <h3>Dr. Lyn Christie</h3>
+      <p>Dentist</p>
+      <p>11 years experience</p>
+      <p>Ratings: ⭐⭐⭐⭐</p>
+      <button class="btn">Book Appointment<br>No Booking Fee</button>
+    </div>
+  </div>
+</body>
+</html>
