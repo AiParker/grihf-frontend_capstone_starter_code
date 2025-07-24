@@ -1,4 +1,49 @@
-* {
+* 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-buttons a {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav-buttons .signup {
+  border-color: #5b9dff;
+  color: #5b9dff;
+}
+
+.nav-buttons .login {
+  border-color: #ccc;
+  color: #333;
+}
+{
     margin: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
