@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - StayHealthy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-brand">StayHealthy</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="#appointments">Appointments</a>
+      <a href="#blog">Health Blog</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <div class="nav-buttons">
+      <a href="signup.html" class="signup">Sign Up</a>
+      <a href="login.html" class="login">Login</a>
+    </div>
+  </header>
+
+  <!-- Signup Form -->
+  <div class="login-container">
+    <h2>Sign Up</h2>
+    <p>Already have an account? <a href="login.html">Login Here</a></p>
+
+    <form>
+      <div class="input-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="input-group password-toggle">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+        <span class="eye-icon">👁️</span>
+      </div>
+
+      <div class="input-group password-toggle">
+        <label for="confirm">Confirm Password</label>
+        <input type="password" id="confirm" name="confirm" placeholder="Re-enter password" required>
+        <span class="eye-icon">👁️</span>
+      </div>
+
+      <div class="button-group">
+        <button type="submit" class="login-btn">Create Account</button>
+        <button type="reset" class="reset-btn">Reset</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
