@@ -11,21 +11,26 @@
       padding: 20px;
       text-align: center;
     }
+    header {
+      margin-bottom: 40px; 
+      width: 100%;
+    }
     .doctor-grid {
+      width: 100%;
       display: flex;
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
     }
-    .appointments {
+    .doccard {
       border: 1px solid #ccc;
       border-radius: 12px;
-      padding: 20px;
-      width: 220px;
+      padding: 50px;
+      width: 420px;
       background-color: #fff;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    .appointments h3 {
+    .doccard h3 {
       margin: 10px 0;
     }
     .btn {
@@ -44,7 +49,7 @@
   </style>
 </head>
 <body>
-    <header class="navbar">
+  <header class="navbar">
   <div class="navbar-brand">StayHealthy</div>
 
   <nav class="nav-links">
@@ -63,21 +68,21 @@
   <p>Book appointments with minimum wait-time & verified doctor details</p>
 
   <div class="appointments">
-    <div class="doctor-card">
+    <div class="doccard">
       <h3>Dr. Jiao Yang</h3>
       <p>Dentist</p>
       <p>9 years experience</p>
       <p>Ratings: ⭐⭐⭐⭐⭐</p>
       <button class="btn">Book Appointment<br>No Booking Fee</button>
     </div>
-    <div class="doctor-card">
+    <div class="doccard">
       <h3>Dr. Denis Raj</h3>
       <p>Dentist</p>
       <p>24 years experience</p>
       <p>Ratings: ⭐⭐⭐⭐</p>
       <button class="btn">Book Appointment<br>No Booking Fee</button>
     </div>
-    <div class="doctor-card">
+    <div class="doccard">
       <h3>Dr. Lyn Christie</h3>
       <p>Dentist</p>
       <p>11 years experience</p>
